@@ -1259,110 +1259,10 @@ form .first2 {
     }
 
 
-
-
-        /*==================↓footer↓==================*/
-
-    /*==================↓footer↓==================*/
-    footer {
-        background: #f3f0ec;
-        width: 100%;
-        padding: 3% 0;
-        margin: 0 auto;
-        bottom: 0;
-    }
-
-    .footer {
-        display: block;
-        align-items: none;
-        padding: 0 3%;
-
-    }
-
-    /*=========↓left address↓========*/
-
-    .left {
-        width: 20%;
-        padding: 0;
-        margin: 0 auto;
-        display: none;
-
-    }
-
-    .left p {
-        font: 12px;
-        text-align: left;
-        width: 100%;
-
- display: none;
-    }
-
-    /*============↓center↓===========*/
-    .middle {
-        display: block;
-        width: 100%;
-        margin: auto;
-
-
-        /*    margin: 0 auto;*/
-    }
-
-    /*=====↓footer logo↓====*/
-    .middle .footer_logo {
-        width: 30%;
-        margin: 0 auto;
-    }
-
-    .middle .footer_logo img {
-        display: block;
-        margin: auto;
-        width: 100%;
-        padding-bottom: 4%
-    }
-
-    /*=====↓SNS↓====*/
-    .middle ul {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        list-style-type: none;
-        width: 50%;
-        margin: auto;
-    }
-
-    .middle ul li {
-        margin-left: 2%;
-    }
-
-    .middle ul li:nth-of-type(1) {
-        margin-left: 0%;
-    }
-
-    .middle ul li a {}
-
-    .middle ul li a img {
-        width: 100%;
-    }
-
-    /*=========↓right frq↓========*/
-    .righ {
-        padding-top:5%;
-        width: 20%;
-        margin: 0 auto;
-
-    }
-
-    .righ a {
-        width: 100%;
-    }
-
-    .righ a img {
-        width: 100%;
-    }
-
-
-
+footer{
+    display: none;
 }
+
 
 @media (max-width:480px) {
     header {
@@ -1561,12 +1461,16 @@ form .first2 {
         padding: 1% 1%;
         text-align: center;
         font-size: 1.5vw;
-        width: 13%;
+        width: 20%;
         margin: 2%;
         font-style: 'Roboto';
     }
 
 
+    footer{
+        display: none;
+    }
+    
 
 
 

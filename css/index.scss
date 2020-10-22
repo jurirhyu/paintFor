@@ -45,7 +45,7 @@
  
   
   .bigSquare {
-    animation: bigSquare 1s  infinite alternate;
+    animation-name: bigSquare ;
   
   }
   
@@ -53,22 +53,23 @@
     from { transform: translateY(10%) rotate(-80deg) scale(0); }
     to { transform: translateY(0) rotate(0deg) scale(1); }
   }
+
   .littleSquare {
-    animation-name: littleSquare;
-  }
+    animation: littleSquare 2s  infinite alternate;
+   }
   @keyframes littleSquare {
     from { transform: translate(226%, 183%) rotate(140deg) scale(0) ; }
     to { transform: translate(0%, 0%) rotate(0deg) scale(1); }
   }
   .triangle {
-    animation-name: triangle;
+    animation: triangle 4s  infinite alternate;
   }
   @keyframes triangle {
     from { transform: rotate(-140deg) scale(0) ; }
     to { transform: rotate(0deg) scale(1); }
   }
   .hoop {
-    animation-name: hoop;
+    animation: hoop 2.5s  infinite alternate;
   }
   @keyframes hoop {
     from { transform: translate(-160%, -33%) scale(0) ; }
@@ -82,7 +83,7 @@
     to { transform: scale(1) translate(0%, 0%); }
   }
   .littleCircle {
-    animation-name: littleCircle;
+    animation: littleCircle 2s  infinite alternate;
   }
   @keyframes littleCircle {
     from { transform: scale(0) }

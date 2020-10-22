@@ -49,8 +49,8 @@ body {
 }
 
 .bigSquare {
-  -webkit-animation: bigSquare 1s  infinite alternate;
-          animation: bigSquare 1s  infinite alternate;
+  -webkit-animation-name: bigSquare;
+          animation-name: bigSquare;
 }
 
 @-webkit-keyframes bigSquare {
@@ -76,8 +76,8 @@ body {
 }
 
 .littleSquare {
-  -webkit-animation-name: littleSquare;
-          animation-name: littleSquare;
+  -webkit-animation: littleSquare 2s  infinite alternate;
+          animation: littleSquare 2s  infinite alternate;
 }
 
 @-webkit-keyframes littleSquare {
@@ -103,8 +103,8 @@ body {
 }
 
 .triangle {
-  -webkit-animation-name: triangle;
-          animation-name: triangle;
+  -webkit-animation: triangle 4s  infinite alternate;
+          animation: triangle 4s  infinite alternate;
 }
 
 @-webkit-keyframes triangle {
@@ -130,8 +130,8 @@ body {
 }
 
 .hoop {
-  -webkit-animation-name: hoop;
-          animation-name: hoop;
+  -webkit-animation: hoop 2.5s  infinite alternate;
+          animation: hoop 2.5s  infinite alternate;
 }
 
 @-webkit-keyframes hoop {
@@ -184,8 +184,8 @@ body {
 }
 
 .littleCircle {
-  -webkit-animation-name: littleCircle;
-          animation-name: littleCircle;
+  -webkit-animation: littleCircle 2s  infinite alternate;
+          animation: littleCircle 2s  infinite alternate;
 }
 
 @-webkit-keyframes littleCircle {
